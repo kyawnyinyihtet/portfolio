@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon.png"/>
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>kyaw portfolio</title>
+  </head>
+
+  <body>
+    <!-- ヘッダ -->
+    <nav>
+      <h1>ジョウニニテッ：ポートフォリオ</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">私について</a></li>
+        <li><a href="#skills" class="nav-link">スケール</a></li>
+        <li><a href="#projects" class="nav-link">プロジェクト</a></li>
+        <li><a href="#contact" class="nav-link">お問い合わせ</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    <!-- 自己紹介 -->
+    <section class="hero" id="about">
+      <img src="assets/images/wfh_1.svg" alt="ジョウニニテッ" loading="lazy" class="hero-img"/>
+      <div class="bio animate__animated animate__shakeX">
+        <p class="bio-text">はじめまして。平成5年生まれの28歳エンジニアのジョウニニテッと申します。社会人歴（IT業界）7年目です。来日後、現在会社にて 3 年間、J2EE 技術を利用した Web 系システムの開発を勤務してきました 。 Java の特徴であるオブジェクト指向を有効利用して、再利用性の高いソフトウェアを目指して開発設計および プログラミング、試験にスムーズに対応できる強みがあります。
+        </p>
+      </div>
+    </section>
+
+    <!-- 詳細 -->
+    <section class="more-about">
+      <h2>私の詳細について</h2>
+      <p>
+        私は大学卒業後、ITエンジニアとしてミャンマーで４年間勤務しました。この後、ミャンマーではなく、日本でもSEのキャリアを磨きたいと思い、2019年1月から今の会社に入社しました。入社した後から今まで様々なシステム開発のプロジェクトにかかわってきました。私はプログラミングに関するスキルに自信があります。JavaやPHPやJavascriptはもちろん、Rubyに関しても開発経験がありますので、WEBシステムならバックエンドだけではなく、フロントエンドも対応できます。日本人とコミュニケーション能力及び思考・分析能力には自信があり、最新技術を使って様々なシステムを開発し、役に立てる技術者になりたいです。
+      </p>
+      <p>
+        特技　‐　ソフトウェア開発の仕事をよくできる事です。（フロントエンド且つバックエンド）<br/>
+        趣味　‐　運動（ジョギング）、映画を見ること
+      </p>
+      <p>
+        勤務先を東京とさせていただければ幸いです。
+      </p>
+    </section>
+
+    <!-- スキル部分 -->
+     <section class="skills" id="skills">
+      <h2 class="skill-header">スキル</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card"/>
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img src="assets/icons/icons8-java.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/icons/icons8-php.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- プロジェクト部分 -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">プロジェクト</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <h4 class="project-title">HR Desktop システム開発</h4>
+          <p class="project-details">
+            【担 フェーズ】製造<br/>
+            【言語】C#.net/ASP.net<br/>
+            【DB】SQL Server <br/>
+            【ツール】Visual Studio
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">会社のホームページ作成</h3>
+          <p class="project-details">
+            【担 フェーズ】詳細設計、製造、単体試験<br/>
+            【言語】HTML/CSS/javaScript/Jquery/Ajax/Php<br/>
+            【DB】MySQL <br/>
+            【ツール】Xampp/Sublime Text/Win-SCP/TortoiseSVN
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">給与システム開発</h3>
+          <p class="project-details">
+            【担 フェーズ】詳細設計、製造、単体試験<br/>
+            【言語】HTML/CSS/javaScript/Jquery/Ajax/Php<br/>
+            【DB】MySQL <br/>
+            【ツール】Xampp/Sublime Text/Win-SCP/TortoiseSVN
+          </p>
+        </div>
+      </div>
+
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <h4 class="project-title">Playth Webシステム開発支援</h4>
+          <p class="project-details">
+            【担 フェーズ】詳細設計、製造、単体試験<br/>
+            【言語】HTML/CSS/javaScript/Jquery/Ajax/Php<br/>
+            【DB】MySQL <br/>
+            【ツール】Xampp/Sublime Text/Win-SCP/TortoiseSVN
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">開発計画管理システム</h3>
+          <p class="project-details">
+            【担 フェーズ】要件定義、基本設計、詳細設計、製造、単体試験、結合試験<br/>
+            【言語】HTML/CSS/javaScript/Jquery/Java<br/>
+            【DB】PostgreSQL <br/>
+            【ツール】Linux Shell Script/VBA tools/Win-SCP/Tera-term/TortoiseSVN
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">ACM(Redmine プラグイン)システム開発支援</h3>
+          <p class="project-details">
+            【担 フェーズ】製造、単体試験<br/>
+            【言語】HTML/CSS/javaScript/Jquery/Ruby<br/>
+            【DB】PostgreSQL <br/>
+            【ツール】Sublime Text/RubyOnRails
+          </p>
+        </div>
+      </div>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <h4 class="project-title">DevOps 構造プロジェクト</h4>
+          <p class="project-details">
+            【担 フェーズ】製造、単体試験 <br/>
+            【ツール】Katalon/Sonarqube/Jmeter
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">ゆうちょ銀行アプリの API 開発</h3>
+          <p class="project-details">
+            【担 フェーズ】詳細設計、製造、単体試験、結合試験 <br/>
+            【言語】Java<br/>
+            【DB】PostgreSQL <br/>
+            【ツール】Eclipse
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">投信直販システム保守</h3>
+          <p class="project-details">
+            【担 フェーズ】詳細設計、製造、単体試験、結合試験 <br/>
+            【言語】HTML/CSS/javaScript/Jquery/Java<br/>
+            【DB】Oracle <br/>
+            【ツール】Eclipse/BackLog
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ部分 -->
+    <section class="contact" id="contact">
+      <h2>お問い合わせ</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xdoyqrwd" method="POST">
+            <div class="form-control">
+              <label for="name">お名前</label>
+              <input type="text" id="name" name="sender-name" placeholder="例：田中　蓮本" class="input-field" required/>
+            </div>
+            <div class="form-control">
+              <label for="email">メールアドレス</label>
+              <input type="email" id="email" name="sender-email" placeholder="例：abc@gmail.com" class="input-field" required />
+            </div>
+            <div class="form-control">
+              <label for="message">メッセージ</label>
+              <textarea id="message" cols="60" rows="10" placeholder="例：聞きたい質問" name="message" class="input-field" required ></textarea>
+            </div>
+            <input type="submit" value="送信" id="submit-btn" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/kyawnyihtet" target="_blank">
+        <img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon"/>
+      </a>
+      <a href="https://github.com/kyawnyinyihtet" target="_blank" >
+        <img src="assets/icons/icons8-github.gif" alt="Github" class="socicon" />
+      </a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+      <img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt="scroll-up"/>
+    </i>
+
+    <!-- フッター部分 -->
+    <footer>
+      <p class="copy">Copyright©Kyaw Nyi Nyi Htet. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
